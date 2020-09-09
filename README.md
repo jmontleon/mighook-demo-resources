@@ -1,7 +1,7 @@
 # Mediawiki Hook Demo Resources
 These resources were used to produce the MigHook demo at [Youtube Demo](https://www.youtube.com/watch?v=so5UJENeB-4).
 
-In order to reproduce the demo run these commands on your source cluster:
+In order to reproduce the demo run these commands on your source cluster:  
 `oc new-project mediawiki`  
 `oc create -f mariadb.yml`  
 `oc create -f mediawiki-route.yml`
